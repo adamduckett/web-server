@@ -1,0 +1,30 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "Spin a web server (with live reload) to aid front-end builds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamduckett/web-server.git"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "live",
+    "reload"
+  ],
+  "author": "Adam Duckett",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/adamduckett/web-server/issues"
+  },
+  "homepage": "https://github.com/adamduckett/web-server#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1",
+    "opn": "^4.0.2"
+  }
+}
