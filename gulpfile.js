@@ -50,8 +50,8 @@ gulp.task('open', function() {
  * Task Runners
  */
 gulp.task('watch', function(){
-  // A task you want to watch
-  gulp.watch(paths.input, ['sass']);
+  // Run this task on file changes
+  //gulp.watch(paths.input, ['sass']);
 });
 
 gulp.task('default', ['webserver', 'watch', 'open']);
